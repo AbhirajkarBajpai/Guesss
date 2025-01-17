@@ -1,0 +1,102 @@
+.G6_h5Game {
+  background-color: var(--Dark-Dark--80, #273343);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.upperInfo_g6_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+}
+
+.level-heading {
+  width: 40vw;
+  height: 2.375rem;
+  height: 4.8vh;
+  flex-shrink: 0;
+  border-radius: 2.8125rem;
+  background: rgba(0, 0, 0, 0.23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8vh auto;
+}
+
+
+.level-heading span {
+  color: #ffc700;
+  text-align: center;
+  font-family: "Pilat Extended";
+  /* font-size: 1.25rem; */
+  font-size: 2.5vh;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 123%;
+  text-transform: capitalize;
+}
+
+.level_word_container_G6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4vh;
+  margin-bottom: 20%;
+}
+
+.guess-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.guess-input-container {
+  margin-top: 5%;
+}
+
+.guess-input {
+  width: 10vw;
+  height: 10vw;
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background-color: var(--Dark-Dark--70, #384353);
+  box-shadow: 0px -3px 0px 0px #2e3c50 inset;
+  outline: none;
+  border: none;
+  margin: auto 1vw;
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 2vh;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.gi_normal_g6 {
+  border-radius: 0.3125rem;
+  background: var(--Dark-Dark--70, #384353);
+  box-shadow: 0px -3px 0px 0px #2e3c50 inset;
+}
+.gi_correct_g6 {
+  border-radius: 0.3125rem;
+  background: #00d864;
+  box-shadow: 0px -3px 0px 0px #00a34b inset;
+}
+.gi_found_g6 {
+  border-radius: 0.3125rem;
+  background: var(--Info-Information-Info-Light, #8397ff);
+  box-shadow: 0px -4.43px 0px 0px #5064c8 inset;
+}
+
+.game-complete-message {
+  font-size: 1.2em;
+  color: green;
+}
